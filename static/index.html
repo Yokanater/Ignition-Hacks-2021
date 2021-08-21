@@ -4,13 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ignition-Hacks-2021</title>
 </head>
 <body>
-    <!---
-        Linking app.js and the tensorflow module
-    -->
+    <div class="preloader">
+        <div class="centered">
+            <div class="blob-1"></div>
+            <div class="blob-2"></div>
+        </div>
+    </div>
+    <div id="sidenav" class="side-nav">
+        <a href="javascript:void(0)" class="close-button" onclick="closeNav()">&times;</a>
+        <a href="#home">HOME</a>
+        <a href="#abouts">ABOUT</a>
+        <a href="test.html">TEST</a>
+        <a href="#contact">CONTACT</a>
+    </div>
+    <header>
+    <span class="ham" style="font-size:35px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+    <span class="logo">Lorem Ipsum</span>
+    </header>
+    <div class="home"id="home">
+        <img class="med-img" src="../img/undraw_medicine_b1ol.png" style="width:40%;height:40%;">
+        <div class="text-box">
+        <h1>Lorem Ipsum</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Ducimus voluptas dicta, dolorum placeat nam eaque odio eveni
+        et temporibus, quis reiciendis cumque, excepturi accusamus r
+        epudiandae quisquam vel unde quae corrupti officia.</p>
+        <button class="start-button">START</button>
+        </div>
+    </div>
+    <div class="about" id="abouts">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Ducimus voluptas dicta, dolorum placeat nam eaque odio eveni
+        et temporibus, quis reiciendis cumque, excepturi accusamus r
+        epudiandae quisquam vel unde quae corrupti officia.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Ducimus voluptas dicta, dolorum placeat nam eaque odio eveni
+        et temporibus, quis reiciendis cumque, excepturi accusamus r
+        epudiandae quisquam vel unde quae corrupti officia.</p>
+    </div>
+    <div class="abt">
+        <div class="box" data-aos="flip-up">
+            <div class="icon"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
+            <div class="pencil">
+                <h3>AIM</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ducimus voluptas dicta, dolorum placeat nam eaque odio eveni
+                et temporibus.
+                </p>
+            </div>
+        </div>
+        <div class="box" data-aos="flip-down">
+            <div class="icon"><i class="fa fa-search" aria-hidden="true"></i></div>
+            <div class="pencil">
+                <h3>PROCESS</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ducimus voluptas dicta, dolorum placeat nam eaque odio eveni
+                et temporibus.
+                </p>
+            </div>
+        </div>
+        <div class="box" data-aos="flip-left">
+            <div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+            <div class="pencil">
+                <h3>CONTRIBUTION</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ducimus voluptas dicta, dolorum placeat nam eaque odio eveni
+                et temporibus.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contact">
+            <form action="/action_page.php">
+                    <h1>Contact Us</h1>
+                    <p>Are you not sure that you have brain tumor? Then contact us we'll confirm coz yeah.</p>
+                    <input type="text" placeholder="Name" required autofocus data-aos="zoom-in">
+                    <input type="email" placeholder="Email" required data-aos="zoom-in">
+                    <input type="tel" placeholder="Mobile Number" required data-aos="zoom-in">
+                    <textarea placeholder="Message" required data-aos="zoom-in"></textarea>
+                    <input type="submit" value="Submit" >
+            </form>
+    </div>
+    <footer>
+        <p>Footer</p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
