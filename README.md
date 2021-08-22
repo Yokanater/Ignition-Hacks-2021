@@ -9,8 +9,7 @@ knowledge about tumors makes it challenging and time-consuming to generate repor
 <p>We aim to help healthcare workers in classifying if a patient is maliant or benign by using the data provided by them. </p>
 <h2> Contribution </h2>
 <p>We want to contribute to the healthcare industry who are treating us in such troubling times and hope this website helps them. </p>
-<h2> The Project </h2>
-<a href="https://in.pinterest.com/"> The Working model "The link redirects to pinterest for now so uh  </a>
+
 <h2> Contact </h2>
 Mail: <br>
 Yash => yashtri22@gmail.com <br> 
