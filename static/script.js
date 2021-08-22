@@ -1,3 +1,4 @@
+window.scroll(0,0)
 function openNav() {
   document.getElementById("sidenav").style.width = "300px";
 }
