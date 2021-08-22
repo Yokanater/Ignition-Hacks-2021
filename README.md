@@ -13,5 +13,6 @@ knowledge about tumors makes it challenging and time-consuming to generate repor
 <a href="https://in.pinterest.com/"> The Working model "The link redirects to pinterest for now so uh  </a>
 <h2> Contact </h2>
 Mail: <br>
-Izma => 2012280izma@dpsnoida.co.in <br>
 Yash => yashtri22@gmail.com <br> 
+Izma => 2012280izma@dpsnoida.co.in <br>
+
