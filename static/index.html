@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/index.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
     <title>Ignition-Hacks-2021</title>
 </head>
 <body>
@@ -19,44 +20,40 @@
     <div id="sidenav" class="side-nav">
         <a href="javascript:void(0)" class="close-button" onclick="closeNav()">&times;</a>
         <a href="#home">HOME</a>
-        <a href="#abouts">ABOUT</a>
-        <a href="test.html">TEST</a>
-        <a href="#contact">CONTACT</a>
+        <a href="#abouts">ABOUT US</a>
+        <a href="test.html">TEST THE MODEL</a>
+        <a href="#contact">CONTACT US</a>
     </div>
     <header>
     <span class="ham" style="font-size:35px;cursor:pointer;" onclick="openNav()">&#9776;</span>
-    <span class="logo">Lorem Ipsum</span>
+    <span class="logo">Medicro</span>
     </header>
     <div class="home"id="home">
-        <img class="med-img" src="../img/undraw_medicine_b1ol.png" style="width:40%;height:40%;">
+        <img class="med-img" src="undraw_medicine_b1ol.png" style="width:40%;height:40%;">
         <div class="text-box">
-        <h1>Lorem Ipsum</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Ducimus voluptas dicta, dolorum placeat nam eaque odio eveni
-        et temporibus, quis reiciendis cumque, excepturi accusamus r
-        epudiandae quisquam vel unde quae corrupti officia.</p>
+        <h1>Medicro</h1>
+        <p>Every year, around 11,700 people are diagnosed with a brain tumor. The survival rate for people with CNS tumor is
+            approximately 35 percent. Brain Tumors are classified as Benign, Malignant or Pituitary.
+            Often times in developing countries the lack of skillful doctors and lack of knowledge about
+             tumors makes it challenging and time-consuming to generate reports from MRI
+            We want to help healthcare workers in diagnosing and treating the patients </p>
+        <a href="test.html">
         <button class="start-button">START</button>
+        </a>
         </div>
     </div>
     <div class="about" id="abouts">
         <h1>About Us</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Ducimus voluptas dicta, dolorum placeat nam eaque odio eveni
-        et temporibus, quis reiciendis cumque, excepturi accusamus r
-        epudiandae quisquam vel unde quae corrupti officia.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Ducimus voluptas dicta, dolorum placeat nam eaque odio eveni
-        et temporibus, quis reiciendis cumque, excepturi accusamus r
-        epudiandae quisquam vel unde quae corrupti officia.</p>
+        <p>We built this website to solve some a major healthcare problem in today's world which is a accurate cancer prediction
+            We used the the platform of Ignition-Hacks-2021 to build a a prototype as a proof of concept .</p>
     </div>
     <div class="abt">
         <div class="box" data-aos="flip-up">
             <div class="icon"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
             <div class="pencil">
                 <h3>AIM</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ducimus voluptas dicta, dolorum placeat nam eaque odio eveni
-                et temporibus.
+                <p> We aim to help healthcare workers in classifying if a
+                    patient is maliant or benign by using the data provided by them</a>
                 </p>
             </div>
         </div>
@@ -64,9 +61,8 @@
             <div class="icon"><i class="fa fa-search" aria-hidden="true"></i></div>
             <div class="pencil">
                 <h3>PROCESS</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ducimus voluptas dicta, dolorum placeat nam eaque odio eveni
-                et temporibus.
+                <p> We are a team of 2 people, one of
+                    us created the frontend and the other created the machine learning model
                 </p>
             </div>
         </div>
@@ -74,9 +70,8 @@
             <div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
             <div class="pencil">
                 <h3>CONTRIBUTION</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ducimus voluptas dicta, dolorum placeat nam eaque odio eveni
-                et temporibus.
+                <p>We want to contribute to the healthcare industry who are treating us in such
+                    troubling times and hope this website helps them
                 </p>
             </div>
         </div>
@@ -84,7 +79,7 @@
     <div class="container" id="contact">
             <form action="/action_page.php">
                     <h1>Contact Us</h1>
-                    <p>Are you not sure that you have brain tumor? Then contact us we'll confirm coz yeah.</p>
+                    <p>Contact us for any feedback or business queries</p>
                     <input type="text" placeholder="Name" required autofocus data-aos="zoom-in">
                     <input type="email" placeholder="Email" required data-aos="zoom-in">
                     <input type="tel" placeholder="Mobile Number" required data-aos="zoom-in">
@@ -93,7 +88,7 @@
             </form>
     </div>
     <footer>
-        <p>Footer</p>
+        <p>Developed with Love by Izma Khan and Yash Tripathi</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

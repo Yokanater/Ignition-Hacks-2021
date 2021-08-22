@@ -5,20 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/text.css">
+    <link rel="stylesheet" href="text.css">
     <title>
         Test
     </title>
 </head>
 <body>
     <header class="header">
-        <div class="logos">Lorem Ipsum</div>
+        <div class="logos">Medicro</div>
     </header>
-    <form action="upload.php" method="POST">
-        <input type="file" multiple>
-        <p>Drag your files here or click in this area.</p>
-        <button type="submit">Upload</button>
+    <img id="selected-image">
+    <br>
+    <br>
+    
+    <form>
+        <input type="file" id="image-selector">
+        <p>Drag your MRI scan in this area</p>
     </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button id="predict-button" type="button" onclick="func()">Get the model's predictions</button>
+    
+    <p id="prediction-list"> The Prediction Will Be Displayed here</p>
+    <weak>Note that our model performs at a certain accuracy and is not a hundred percent accurate every time</weak>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="app.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
