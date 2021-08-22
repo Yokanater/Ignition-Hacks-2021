@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="text.css">
     <title>
         Test
@@ -14,18 +15,21 @@
     <header class="header">
         <div class="logos">Medicro</div>
     </header>
-    <img id="selected-image">
+    <img id="selected-image" >
     <br>
     <br>
-    
     <form>
         <input type="file" id="image-selector">
         <p>Drag your MRI scan in this area</p>
     </form>
+    <br>
+    <br>
+    <div id="lol" class="loader-div">
+    </div>
     <button id="predict-button" type="button" onclick="func()">Get the model's predictions</button>
     
     <p id="prediction-list"> The Prediction Will Be Displayed here</p>
-    <weak>Note that our model performs at a certain accuracy and is not a hundred percent accurate every time</weak>
+    <weak id="weak-gh">Note that our model performs at a certain accuracy and is not a hundred percent accurate every time</weak>
     <br>
     <br>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
