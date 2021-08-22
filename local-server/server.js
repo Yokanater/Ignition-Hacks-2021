@@ -9,6 +9,6 @@ app.use(function(req, res, next){
 
 app.use(express.static("../static"))
 
-app.listen(85, function(){
+app.listen(process.env.PORT || 85, function(){
     console.log("Serving static on 85")
 })
