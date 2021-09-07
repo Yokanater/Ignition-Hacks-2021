@@ -3,7 +3,7 @@ let model;
 (async function testModel() {
     let loader = document.getElementById("lol")
     console.log("Hello")
-    model = await tf.loadLayersModel("http://localhost:85/model/model.json");
+    model = await tf.loadLayersModel("model/model.json");
     console.log("bye")
     loader.classList.remove("loader-div")
 })();
