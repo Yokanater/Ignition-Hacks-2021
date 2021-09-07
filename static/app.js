@@ -3,9 +3,9 @@ let model;
 (async function testModel() {
     let loader = document.getElementById("lol")
     console.log("Hello")
-   model = await tf.loadLayersModel("https://yashlovescode.github.io/Ignition-Hacks-2021//model/model.json");
-   console.log("bye")
-   loader.classList.remove("loader-div")
+    model = await tf.loadLayersModel("http://localhost:85/model/model.json");
+    console.log("bye")
+    loader.classList.remove("loader-div")
 })();
 $("#image-selector").change(function (){
     
